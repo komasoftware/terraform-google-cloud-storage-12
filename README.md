@@ -1,3 +1,8 @@
+# 0.12 Compatible
+
+- Clone of https://github.com/terraform-google-modules/terraform-google-cloud-storage
+- 0.12 compatible
+
 # Terraform Google Cloud Storage Module
 
 This module makes it easy to create one or more GCS buckets, and assign basic permissions on them to arbitrary users.
@@ -75,7 +80,7 @@ These sections describe requirements for using this module.
 
 The following dependencies must be available:
 
-- [Terraform][terraform] v0.11
+- [Terraform][terraform] v0.12.5
 - [Terraform Provider for GCP][terraform-provider-gcp] plugin v2.0
 
 ### Service Account
