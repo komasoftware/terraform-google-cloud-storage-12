@@ -1,0 +1,7 @@
+steps:
+  - name: gcr.io/cloud-builders/gsutil
+    args:
+      - rsync
+      - -x ".terraform$|secrets.conf$"
+      - ./
+      - gs://tvh-tf-modules/terraform-google-cloud-storage-patched/$_MODULE_RELEASE/
